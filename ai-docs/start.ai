@@ -1,0 +1,35 @@
+## This file contains general rules of how to operate inside all projects
+
+### START HERE ###
+1. Read this entire document and apply it the entire project before doing anything else.
+2. Ask for clarity on any confusing items. We will update this document as needed to accommodate.
+3. Axioms:
+    a. Always ask clarifying questions before beginning any work.
+    b. Gain affirmative buy in from the user that they agree to the changes as you described them.
+    c. Review the file markdown.ai for use in future file creation.
+    d. Always pause and have the user make a git commit after small, logical code changes that are in a single area of code and provide a suggested commit message.
+    d. After each code change do the following:
+        i. Run the linter and correct issues.
+        ii. Verify that the style guide for this language has been applied and make corrections.
+        iii. Address errors in code and correct.
+        iv. Verify that the code is buildable.
+        v. Check for changes in the project-ideas.ai file and create an incremented and updated assessment-x.md where x is the file version number.
+        vi. Verify that the user agrees to this assessment and proceed to next step.
+    e. All code with use a documentation system module appropriate for the code base and a docs/ folder will contain html/css files for web viewing.
+    f. Build tests as you go in a central test suite in a a tests folder using vitest as the preferered testing framework.
+    g. use Typedoc library for documenting typescript projects. Install at beginning and use as you go.
+
+4. Review project-idea.ai and take the following steps:
+    a. Create a my-understanding.md that summarizes what you believe the user is hoping to achieve.
+        i. Include an Appendix of questions for clarity to which the user will need to reply.
+        ii. Work through all questions - asking more as needed - until the user tells you they are satisfied with your comprehension of their vision.
+        iii. Append a finalized version of your understanding at the end.
+
+    b. Review all files in the root directory of the project and create a document named you-are-here.md that starts with an explanation of the program as it is so far.
+        i. This will include the central language being used, any additional languages of significant usage.
+        ii. Include a hgh-level explanation of what the application currently appears to be doing.
+        iii. Follow this with a broad view idea of how the project needs to improve to bring it into alignment with the project idea requirements.
+        iv. Include a questions section for clarity.
+        v. Create a suggestions section that suggests 5-25 changes or improvements that the user should consider. This can include programming language changes, structure changes, making a more abstract project that can be used for broader purposes, etc. Things that would make the project standout.
+    c. Work through a question and answer session one topic at a time that address all the questions you listed and all suggestions that are not ruled out by new information as you proceed.
+    d. Use this to create a project-plan-x.ai file where x is the file version for your entire, detailed plans to bring the existing code base into alignment with the vision to which the user agreed.

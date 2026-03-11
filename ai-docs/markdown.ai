@@ -1,0 +1,6 @@
+## This document will provide guidance for markdown files that explains the users desired preferences for this file type that supersede the style guide
+
+
+1. Create a linked table of contents to the sections at the top for quick navigation.
+2. Always run a markdown linter that uses the style guide selected or the standard after file generation.
+
